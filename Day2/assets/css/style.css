@@ -18,8 +18,8 @@ html {
 
 .right {
     width: 50%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-top: 1rem; */
+    padding-bottom: 3rem;
 
     button {
         width: 50%;
