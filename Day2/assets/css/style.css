@@ -1,6 +1,53 @@
+html {
+    background-color: rgb(248, 240, 228);
+}
+
+
 .box {
-    background-color: green;
-    color: red;
-    border-radius: 15px;
-    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    width: 40%;
+    height: 60vh;
+    padding-right: 1rem;
+    position: relative;
+    left: 25rem;
+    top: 10rem;
+}
+
+.right {
+    width: 50%;
+
+    button {
+        width: 50%;
+        height: 5vh;
+        background-color: rgb(4, 83, 40);
+        border: none;
+        border-radius: 0.5rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    & .price {
+        color: rgb(4, 83, 40);
+
+        del {
+            font-size: 15px;
+            color: gray;
+        }
+    }
+
+    p {
+        color: gray;
+    }
+
+}
+
+.left {
+    img {
+        width: 100%;
+        height: 60vh;
+    }
+
 }
