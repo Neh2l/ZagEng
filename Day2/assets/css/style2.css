@@ -1,3 +1,7 @@
+html {
+    background-color: rgb(175, 175, 175);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -7,7 +11,7 @@ nav {
 }
 
 nav .logo {
-    background-color: rgb(212, 177, 130);
+    background-color: gray;
     width: 10%;
     padding: 1rem;
     text-align: center;
@@ -15,7 +19,7 @@ nav .logo {
 }
 
 nav .services {
-    background-color: rgb(212, 177, 130);
+    background-color: gray;
     width: 90%;
     text-align: right;
     justify-items: end;
@@ -42,7 +46,7 @@ main {
 main .left {
     padding-top: 0.5rem;
     padding-left: 2rem;
-    background-color: rgb(212, 177, 130);
+    background-color: gray;
     width: 70%;
     height: 85vh;
     border-radius: 1rem;
@@ -51,7 +55,7 @@ main .left {
 main .right {
     padding-top: 0.5rem;
     padding-left: 2rem;
-    background-color: rgb(212, 177, 130);
+    background-color: gray;
     width: 30%;
     height: 85vh;
     border-radius: 1rem;
@@ -61,7 +65,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(212, 177, 130);
+    background-color: gray;
     margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
