@@ -1,0 +1,20 @@
+h1 {
+    font-size: 20rem;
+    animation: colorChange 0.1s infinite alternate;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+@keyframes colorChange {
+    0% {
+        color: red;
+
+    }
+
+    100% {
+        color: black;
+
+    }
+}
