@@ -1,3 +1,9 @@
+:root {
+    --color1: #0F4D68;
+    --color2: #B7B7B7;
+    --color3: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@ body {
 .circle1 {
     width: 50vh;
     height: 50vh;
-    background-color: gray;
+    background-color: var(--color2);
     border-radius: 20rem;
     position: absolute;
     left: -20rem;
@@ -24,7 +30,7 @@ body {
 .circle2 {
     width: 50vh;
     height: 50vh;
-    background-color: gray;
+    background-color: var(--color2);
     border-radius: 20rem;
     position: absolute;
     left: 95rem;
@@ -89,7 +95,7 @@ form {
 .input_field2 {
     width: 123vh;
     height: 6vh;
-    background-color: rgb(8, 59, 88);
+    background-color: var(--color1);
     color: white;
     margin-top: 1rem;
 
@@ -115,6 +121,7 @@ select {
     margin-top: 1rem;
     width: 123vh;
     height: 6vh;
+    background-color: white;
 
 }
 
