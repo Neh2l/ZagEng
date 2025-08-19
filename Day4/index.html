@@ -5,24 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <title>Day4</title>
-
 </head>
-
 
 <body>
     <div class="circle1"></div>
 
-    <form action="get">
-
+    <form id="registerForm">
         <h1>hi,Welcome to luxira!</h1>
         <p>Register your account</p>
         <div class="inpts">
-
             <div class="input1">
                 <div class="inpt">
                     <label for="fname">First name</label>
@@ -35,15 +27,15 @@
             </div>
             <div class="input1">
                 <div class="inpt">
-                    <label for="fname">mobile number or email address</label>
+                    <label for="mobile">mobile number or email address</label>
                     <input type="text" id="mobile" placeholder="nehal122@gmail.com" class="input_field1">
                 </div>
                 <div class="inpt">
                     <label for="gender">Gender</label>
-                    <select name="" id="gender">
+                    <select id="gender">
                         <option value="" disabled selected>Gender</option>
-                        <option value="">male</option>
-                        <option value="">Female</option>
+                        <option value="Male">male</option>
+                        <option value="Female">Female</option>
                     </select>
                 </div>
             </div>
@@ -57,21 +49,17 @@
                     <input type="password" id="confirm" class="input_field1">
                 </div>
             </div>
-
         </div>
-        <div><button class="input_field2">register</button></div>
-        <div class="or">
-            <hr>
-            <p>OR</p>
-            <hr>
+        <div>
+            <button type="submit" class="input_field2" id="sign">register</button>
         </div>
-        <div><button class="input_field3">
-                sign in with Google
-            </button></div>
-
-
     </form>
+
+
+    <div id="welcomeCard"></div>
+
     <div class="circle2"></div>
+
 
     <script src="assets/js/main.js"></script>
 </body>

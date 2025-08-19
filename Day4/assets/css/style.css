@@ -13,7 +13,7 @@
 body {
     align-content: center;
     justify-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .circle1 {
@@ -133,4 +133,21 @@ select {
     hr {
         width: 60vh;
     }
+}
+
+#welcomeCard {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f1f1f1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    display: none;
+    /* مخفي لحد ما يظهر */
+}
+
+#welcomeCard h2 {
+    color: #0F4D68;
+    margin-bottom: 1rem;
 }
