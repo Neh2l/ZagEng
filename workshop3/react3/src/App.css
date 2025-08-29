@@ -32,3 +32,18 @@ button {
 input {
   height: 4vh;
 }
+
+.child {
+  width: 200px;
+  box-shadow: 0 0 4px gray;
+  padding: 1rem;
+  
+}
+
+.container {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

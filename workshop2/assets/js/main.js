@@ -13,7 +13,7 @@ async function loadBlogs() {
         const blogs = await res.json();
 
 
-        const selectedBlogs = blogs.slice(0, 2);
+        const selectedBlogs = blogs.slice(2, 4);
 
         blogsContainer.innerHTML = selectedBlogs.map(blog => `
             <div class="card">

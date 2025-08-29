@@ -7,9 +7,7 @@ function Card({ title, image, description }) {
             width: '200px',
             textAlign: 'center'
         }}>
-            <img src={image} alt={title} style={{ width: '100%', borderRadius: '8px' }}
-            
-            />
+            <img src={image} alt={title} style={{ width: '100%', borderRadius: '8px' }} />
             <h3>{title}</h3>
             <p>{description}</p>
         </div>
